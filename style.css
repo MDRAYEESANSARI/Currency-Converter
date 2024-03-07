@@ -126,7 +126,8 @@ form select, input{
     cursor: pointer;
     background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
     background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 .msg button:hover{
     background-color: black;

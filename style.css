@@ -11,20 +11,32 @@ body{
     /* min-height: 100vh; */
     font-family:  "Martel sans", sans-serif;
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero img{
+    margin-top: 2rem;
+    height: 9rem;
+}
 h2{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     display: flex;
+    font-size: 2rem;
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #000000;
 }
 .container{
     background-color: white;
     border: none;
     padding: 2rem;
     border-radius: 10px;
-    height: 25rem;
+    height: 35rem;
     /* width: 100vh;
     height: 100%; 
     for mobile*/
@@ -36,7 +48,7 @@ form{
     flex-direction: column;
     padding: 1rem;
     border-radius: 10px;
-    height: 90%;
+    height: 50%;
 }
 .amount input{
     font-size: 0.8rem;
@@ -99,19 +111,22 @@ form select, input{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* font-weight: bold; */
     font-size: 1rem;
+    
 
 }
 .msg button{
     border: none;
     outline: none;
     width: 100%;
-    height: 1.7rem;
+    height: 3.5rem;
     padding: 0.3rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 1rem;
     border-radius: 4px;
     cursor: pointer;
-
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+    color: white;
 }
 .msg button:hover{
     background-color: black;
